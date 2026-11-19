@@ -11,7 +11,7 @@ boot: auto
 init: false
 # Nodig om de KNX IP-interface in het eigen netwerk te vinden en te bereiken.
 host_network: true
-# Alleen lezen: weer, energie en laadpaal uit Home Assistant voor het dashboard.
+# Weer, energie en laadpaal lezen; lampen en schakelaars die op het dashboard staan aan of uit zetten.
 homeassistant_api: true
 ingress: true
 ingress_port: 8099
